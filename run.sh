@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 
+old_branch=develop
+new_branch=feature/faster-ad-tls-v3
+
 echo "Purpose: run the benchamrks on the local machine"
 echo ""
 echo "TODO"
@@ -20,5 +23,26 @@ echo "    - [ ] run and record develop N times with fixed seed"
 echo "    - [ ] run and record feature/faster-ad-tls-v3 N times with fixed seed"
 echo "    - [ ] run and record develop N times with different seeds"
 echo "    - [ ] run and record feature/faster-ad-tls-v3 N times with different seeds \(but same as above\)"
+echo "================================================================================"
 echo ""
+echo ""
+
+echo "Setup submodules"
+if [ ! -d "cmstan-old" ]; then
+  git submodule add https://github.com/stan-dev/cmdstan cmdstan-old
+  git submodule update --init --recursive
+  pushd cmdstan-old/stan/lib/stan_math
+  git checkout $old_branch
+  popd
+  git commit -m "adding CmdStan-old submodule with $old_branch" cmdstan-old .gitmodules
+  
+fi
+if [ ! -d "cmdstan-new" ]; then
+  git submodule add https://github.com/stan-dev/cmdstan cmdstan-new
+  git submodule update --init --recursive
+  pushd cmdstan-new/stan/lib/stan_math
+  git checkout $new_branch
+  popd
+  git commit -m "adding CmdStan-new submodule with $new_branch" cmdstan-new .gitmodules
+fi
 
