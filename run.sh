@@ -50,3 +50,5 @@ if [ ! -d "cmdstan-new" ]; then
   git commit -m "adding CmdStan-new submodule with $new_branch" cmdstan-new .gitmodules
 fi
 
+# if recording csv:
+# old/new, num threads, seed,  timing results
