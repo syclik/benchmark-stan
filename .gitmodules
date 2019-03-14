@@ -1,3 +1,6 @@
 [submodule "cmdstan-old"]
 	path = cmdstan-old
 	url = https://github.com/stan-dev/cmdstan
+[submodule "cmdstan-new"]
+	path = cmdstan-new
+	url = https://github.com/stan-dev/cmdstan
