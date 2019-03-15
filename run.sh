@@ -27,3 +27,5 @@ echo ""
 echo "Setup submodules"
 git submodule update --init --recursive
 
+# if recording csv:
+# old/new, num threads, seed,  timing results
