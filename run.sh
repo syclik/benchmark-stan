@@ -12,12 +12,12 @@ echo "- [x] build with math feature/faster-ad-tls-v3"
 echo "- [x] estimate order of magnitude to run a time: 250 x 250 = ~6 min"
 echo "- [x] pick a number of times to run, 10"
 echo "- [x] pick a random seed, 3172019"
-echo "- [ ] repeat for number of threads 1, 2, 3, 4"
-echo "    - [ ] run and record develop 1 time with fixed seed"
-echo "    - [ ] run and record feature/faster-ad-tls-v3 with fixed seed"
-echo "    - [ ] compare output to validate they are identical"
-echo "    - [ ] run and record develop N times with fixed seed"
-echo "    - [ ] run and record feature/faster-ad-tls-v3 N times with fixed seed"
+echo "- [x] repeat for number of threads 1, 2, 3, 4"
+echo "    - [x] run and record develop 1 time with fixed seed"
+echo "    - [x] run and record feature/faster-ad-tls-v3 with fixed seed"
+echo "    - [x] compare output to validate they are identical"
+echo "    - [x] run and record develop N times with fixed seed"
+echo "    - [x] run and record feature/faster-ad-tls-v3 N times with fixed seed"
 echo "    - [ ] run and record develop N times with different seeds"
 echo "    - [ ] run and record feature/faster-ad-tls-v3 N times with different seeds \(but same as above\)"
 echo "================================================================================"
@@ -31,6 +31,7 @@ git submodule update --init --recursive
 
 echo "Building everything" | tee -a progress.txt
 echo "STAN_THREADS=true" > local
+echo "CXXFLAGS += -DSTAN_THREADS"
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     echo "CXX=g++-5" >> local
 else
