@@ -31,7 +31,7 @@ git submodule update --init --recursive
 
 echo "Building everything" | tee -a progress.txt
 echo "STAN_THREADS=true" > local
-echo "CXXFLAGS += -DSTAN_THREADS"
+echo "CXXFLAGS += -DSTAN_THREADS" >> local
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     echo "CXX=g++-5" >> local
 else
