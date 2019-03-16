@@ -6,7 +6,11 @@ build:
 
 clean-all: clean
 	cd cmdstan-old && git clean -dxf
+	cd cmdstan-old/stan && git clean -dxf
+	cd cmdstan-old/stan/lib/stan_math && git clean -dxf
 	cd cmdstan-new && git clean -dxf
+	cd cmdstan-new/stan && git clean -dxf
+	cd cmdstan-new/stan/lib/stan_math && git clean -dxf
 
 clean:
 	@echo "clean"
