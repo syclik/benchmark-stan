@@ -30,11 +30,11 @@ echo "Setup submodules" | tee -a progress.txt
 git submodule update --init --recursive
 
 echo "Building everything" | tee -a progress.txt
-echo "CPPFLAGS=-DSTAN_THREADS" > local
+echo "STAN_THREADS=true" > local
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     echo "CXX=g++-5" >> local
 else
-    echo "CXX=clang++-6" >> local
+    echo "CXX=clang++" >> local
 fi
 make build -j8
 
@@ -46,9 +46,10 @@ echo "Running once with 1 thread" | tee -a progress.txt
 thread=1
 n=1
 export STAN_NUM_THREADS=$thread
-{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=old-$thread-$random_seed-$n.csv } 2>> old-$thread-time.txt
 
-{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=new-$thread-$random_seed-$n.csv } 2>> new-$thread-time.txt
+{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=old-$thread-$random_seed-$n.csv; } 2> old-$thread-time.txt
+
+{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=new-$thread-$random_seed-$n.csv; } 2> new-$thread-time.txt
 
 
 echo "Comparing output" | tee -a progress.txt
@@ -56,25 +57,23 @@ tail -n +39 old-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D'
 tail -n +39 new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > new-ref.csv
 diff old-ref.csv new-ref.csv
 
-for n in {2..$N}
-do
+for n in {2..$N}; do
     echo "running with $thread threads, iteration $n" | tee -a progress.txt
-    { time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=old-$thread-$random_seed-$n.csv } 2>> old-$thread-time.txt
-    { time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=new-$thread-$random_seed-$n.csv } 2>> new-$thread-time.txt
+    { time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=old-$thread-$random_seed-$n.csv; } 2>> old-$thread-time.txt
+    { time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=new-$thread-$random_seed-$n.csv; } 2>> new-$thread-time.txt
     tail -n +39 new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > new.csv
     diff old-ref.csv new.csv
 done
 
 
-for thread in "${threads[@]}"
-do
-    for n in {2..$N}
-    do
+for thread in "${threads[@]}"; do
+    rm -f old-$thread-time.txt new-$thread-time.txt
+    export STAN_NUM_THREADS=$thead
+    for n in {2..$N}; do
 	echo "running with $thread threads, iteration $n" | tee -a progress.txt
-	{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=old-$thread-$random_seed-$n.csv } 2>> old-$thread-time.txt
-	{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=new-$thread-$random_seed-$n.csv } 2>> new-$thread-time.txt
+	{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=old-$thread-$random_seed-$n.csv; } 2>> old-$thread-time.txt
+	{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=new-$thread-$random_seed-$n.csv; } 2>> new-$thread-time.txt
 	tail -n +39 new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > new.csv
 	diff old-ref.csv new.csv
     done
 done
-
