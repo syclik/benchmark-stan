@@ -35,7 +35,7 @@ echo "CXXFLAGS += -DSTAN_THREADS" >> local
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     echo "CXX=g++-5" >> local
 else
-    echo "CXX=clang++" >> local
+    echo "CXX=/usr/local/opt/llvm@6/bin/clang++" >> local
 fi
 make build -j8
 
