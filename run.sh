@@ -41,16 +41,16 @@ make build -j8
 
 random_seed=3172019
 N=10
-threads=(4 8)
+threads=(2 4)
 
 echo "Running once with 1 thread" | tee -a progress.txt
 thread=1
 n=1
 export STAN_NUM_THREADS=$thread
 
-{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=old-$thread-$random_seed-$n.csv; } 2> old-$thread-time.txt
+{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=old-$thread-$random_seed-$n.csv; } 2> old-$thread-time.txt
 
-{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=new-$thread-$random_seed-$n.csv; } 2> new-$thread-time.txt
+{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=new-$thread-$random_seed-$n.csv; } 2> new-$thread-time.txt
 
 
 echo "Comparing output" | tee -a progress.txt
@@ -58,10 +58,10 @@ tail -n +39 old-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D'
 tail -n +39 new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > new-ref.csv
 diff old-ref.csv new-ref.csv
 
-for n in {2..$N}; do
+for n in $(seq 2 $N); do
     echo "running with $thread threads, iteration $n" | tee -a progress.txt
-    { time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=old-$thread-$random_seed-$n.csv; } 2>> old-$thread-time.txt
-    { time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=new-$thread-$random_seed-$n.csv; } 2>> new-$thread-time.txt
+    { time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=old-$thread-$random_seed-$n.csv; } 2>> old-$thread-time.txt
+    { time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=new-$thread-$random_seed-$n.csv; } 2>> new-$thread-time.txt
     tail -n +39 new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > new.csv
     diff old-ref.csv new.csv
 done
@@ -69,11 +69,11 @@ done
 
 for thread in "${threads[@]}"; do
     rm -f old-$thread-time.txt new-$thread-time.txt
-    export STAN_NUM_THREADS=$thead
-    for n in {2..$N}; do
+    export STAN_NUM_THREADS=$thread
+    for n in $(seq 1 $N); do
 	echo "running with $thread threads, iteration $n" | tee -a progress.txt
-	{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=old-$thread-$random_seed-$n.csv; } 2>> old-$thread-time.txt
-	{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=250 num_samples=250 random seed=$random_seed output refresh=250 file=new-$thread-$random_seed-$n.csv; } 2>> new-$thread-time.txt
+	{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=old-$thread-$random_seed-$n.csv; } 2>> old-$thread-time.txt
+	{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=new-$thread-$random_seed-$n.csv; } 2>> new-$thread-time.txt
 	tail -n +39 new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > new.csv
 	diff old-ref.csv new.csv
     done
