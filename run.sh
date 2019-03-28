@@ -45,7 +45,7 @@ else
     FOLDER=mac
 fi
 
-$(mkdir) $(FOLDER)
+mkdir -p $FOLDER
 
 random_seed=3172019
 N=10
@@ -56,33 +56,33 @@ thread=1
 n=1
 export STAN_NUM_THREADS=$thread
 
-{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$(FOLDER)/old-$thread-$random_seed-$n.csv; } 2> $(FOLDER)/old-$thread-time.txt
+{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$FOLDER/old-$thread-$random_seed-$n.csv; } 2> $FOLDER/old-$thread-time.txt
 
-{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$(FOLDER)/new-$thread-$random_seed-$n.csv; } 2> $(FOLDER)/new-$thread-time.txt
+{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$FOLDER/new-$thread-$random_seed-$n.csv; } 2> $FOLDER/new-$thread-time.txt
 
 
 echo "Comparing output" | tee -a progress.txt
-tail -n +39 $(FOLDER)/old-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > $(FOLDER)/old-ref.csv
-tail -n +39 $(FOLDER)/new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > $(FOLDER)/new-ref.csv
-diff $(FOLDER)/old-ref.csv $(FOLDER)/new-ref.csv
+tail -n +39 $FOLDER/old-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > $FOLDER/old-ref.csv
+tail -n +39 $FOLDER/new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > $FOLDER/new-ref.csv
+diff $FOLDER/old-ref.csv $FOLDER/new-ref.csv
 
 for n in $(seq 2 $N); do
     echo "running with $thread threads, iteration $n" | tee -a progress.txt
-    { time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$(FOLDER)/old-$thread-$random_seed-$n.csv; } 2>> $(FOLDER)/old-$thread-time.txt
-    { time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$(FOLDER)/new-$thread-$random_seed-$n.csv; } 2>> $(FOLDER)/new-$thread-time.txt
-    tail -n +39 $(FOLDER)/new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > $(FOLDER)/new.csv
-    diff $(FOLDER)/old-ref.csv $(FOLDER)/new.csv
+    { time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$FOLDER/old-$thread-$random_seed-$n.csv; } 2>> $FOLDER/old-$thread-time.txt
+    { time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$FOLDER/new-$thread-$random_seed-$n.csv; } 2>> $FOLDER/new-$thread-time.txt
+    tail -n +39 $FOLDER/new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > $FOLDER/new.csv
+    diff $FOLDER/old-ref.csv $FOLDER/new.csv
 done
 
 
 for thread in "${threads[@]}"; do
-    rm -f $(FOLDER)/old-$thread-time.txt $(FOLDER)/new-$thread-time.txt
+    rm -f $FOLDER/old-$thread-time.txt $FOLDER/new-$thread-time.txt
     export STAN_NUM_THREADS=$thread
     for n in $(seq 1 $N); do
 	echo "running with $thread threads, iteration $n" | tee -a progress.txt
-	{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$(FOLDER)/old-$thread-$random_seed-$n.csv; } 2>> $(FOLDER)/old-$thread-time.txt
-	{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$(FOLDER)/new-$thread-$random_seed-$n.csv; } 2>> $(FOLDER)/new-$thread-time.txt
-	tail -n +39 $(FOLDER)/new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > $(FOLDER)/new.csv
-	diff $(FOLDER)/old-ref.csv $(FOLDER)/new.csv
+	{ time ./benchmark-warfarin-old data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$FOLDER/old-$thread-$random_seed-$n.csv; } 2>> $FOLDER/old-$thread-time.txt
+	{ time ./benchmark-warfarin-new data file=benchmark-warfarin.data.R init=benchmark-warfarin.init.R sample num_warmup=150 num_samples=150 random seed=$random_seed output refresh=150 file=$FOLDER/new-$thread-$random_seed-$n.csv; } 2>> $FOLDER/new-$thread-time.txt
+	tail -n +39 $FOLDER/new-$thread-$random_seed-$n.csv | sed -e :a -e '$d;N;2,5ba' -e 'P;D' > $FOLDER/new.csv
+	diff $FOLDER/old-ref.csv $FOLDER/new.csv
     done
 done
