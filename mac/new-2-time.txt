@@ -1,0 +1,810 @@
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m57.123s
+user	5m31.974s
+sys	0m1.906s
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m56.410s
+user	5m31.157s
+sys	0m1.874s
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m53.632s
+user	5m25.315s
+sys	0m1.860s
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m59.516s
+user	5m36.673s
+sys	0m1.902s
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m53.426s
+user	5m24.840s
+sys	0m1.852s
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m58.860s
+user	5m35.429s
+sys	0m1.990s
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m58.061s
+user	5m33.656s
+sys	0m1.907s
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m54.815s
+user	5m28.510s
+sys	0m1.854s
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m47.983s
+user	5m14.934s
+sys	0m1.857s
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Max number of iterations exceeded (500).  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: integrate_ode_rk45: parameter vector[2] is -inf, but must be finite!  (in '../benchmark-warfarin-new.stan' at line 151)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is 0, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
+  (in '../benchmark-warfarin-new.stan' at line 160)
+  (in '../benchmark-warfarin-new.stan' at line 225)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+real	2m52.453s
+user	5m22.657s
+sys	0m1.877s
