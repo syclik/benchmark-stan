@@ -1,3 +1,0 @@
-STAN_THREADS=true
-CXXFLAGS += -DSTAN_THREADS
-CXX=/usr/local/opt/llvm@6/bin/clang++
