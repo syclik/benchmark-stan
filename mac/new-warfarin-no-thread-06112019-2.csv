@@ -1,0 +1,39 @@
+# stan_version_major = 2
+# stan_version_minor = 19
+# stan_version_patch = 0
+# model = benchmark_warfarin_new_model
+# method = sample (Default)
+#   sample
+#     num_samples = 150
+#     num_warmup = 150
+#     save_warmup = 0 (Default)
+#     thin = 1 (Default)
+#     adapt
+#       engaged = 1 (Default)
+#       gamma = 0.050000000000000003 (Default)
+#       delta = 0.80000000000000004 (Default)
+#       kappa = 0.75 (Default)
+#       t0 = 10 (Default)
+#       init_buffer = 75 (Default)
+#       term_buffer = 50 (Default)
+#       window = 25 (Default)
+#     algorithm = hmc (Default)
+#       hmc
+#         engine = nuts (Default)
+#           nuts
+#             max_depth = 10 (Default)
+#         metric = diag_e (Default)
+#         metric_file =  (Default)
+#         stepsize = 1 (Default)
+#         stepsize_jitter = 0 (Default)
+# id = 0 (Default)
+# data
+#   file = benchmark-warfarin.data.R
+# init = benchmark-warfarin.init.R
+# random
+#   seed = 6112019
+# output
+#   file = mac/new-warfarin-no-thread-06112019-2.csv
+#   diagnostic_file =  (Default)
+#   refresh = 150
+lp__,accept_stat__,stepsize__,treedepth__,n_leapfrog__,divergent__,energy__,theta.1,theta.2,theta.3,Eta.1.1,Eta.2.1,Eta.3.1,Eta.4.1,Eta.5.1,Eta.6.1,Eta.7.1,Eta.8.1,Eta.9.1,Eta.10.1,Eta.11.1,Eta.12.1,Eta.13.1,Eta.14.1,Eta.15.1,Eta.16.1,Eta.17.1,Eta.18.1,Eta.19.1,Eta.20.1,Eta.21.1,Eta.22.1,Eta.23.1,Eta.24.1,Eta.25.1,Eta.26.1,Eta.27.1,Eta.28.1,Eta.29.1,Eta.30.1,Eta.31.1,Eta.32.1,Eta.1.2,Eta.2.2,Eta.3.2,Eta.4.2,Eta.5.2,Eta.6.2,Eta.7.2,Eta.8.2,Eta.9.2,Eta.10.2,Eta.11.2,Eta.12.2,Eta.13.2,Eta.14.2,Eta.15.2,Eta.16.2,Eta.17.2,Eta.18.2,Eta.19.2,Eta.20.2,Eta.21.2,Eta.22.2,Eta.23.2,Eta.24.2,Eta.25.2,Eta.26.2,Eta.27.2,Eta.28.2,Eta.29.2,Eta.30.2,Eta.31.2,Eta.32.2,Eta.1.3,Eta.2.3,Eta.3.3,Eta.4.3,Eta.5.3,Eta.6.3,Eta.7.3,Eta.8.3,Eta.9.3,Eta.10.3,Eta.11.3,Eta.12.3,Eta.13.3,Eta.14.3,Eta.15.3,Eta.16.3,Eta.17.3,Eta.18.3,Eta.19.3,Eta.20.3,Eta.21.3,Eta.22.3,Eta.23.3,Eta.24.3,Eta.25.3,Eta.26.3,Eta.27.3,Eta.28.3,Eta.29.3,Eta.30.3,Eta.31.3,Eta.32.3,sigma_eta.1,sigma_eta.2,sigma_eta.3,sigma_y,kappa,R0,kin,kout,EC50,sigma_y_ref
