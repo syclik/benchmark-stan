@@ -47,9 +47,9 @@ fi
 
 mkdir -p $FOLDER
 
-random_seed=3172019
+random_seed=06112019
 N=10
-threads=(2 4)
+threads=(1 2 4)
 
 echo "Running once with 1 thread" | tee -a progress.txt
 thread=1
