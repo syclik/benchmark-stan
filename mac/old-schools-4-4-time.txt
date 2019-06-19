@@ -389,9 +389,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m23.870s
-user	0m23.814s
-sys	0m0.056s
+real	0m15.039s
+user	0m14.986s
+sys	0m0.053s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: normal_lpdf: Scale parameter[1] is 0, but must be > 0!  (in '../benchmark-schools-4-old.stan' at line 44)
 
@@ -783,9 +783,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m42.541s
-user	0m41.734s
-sys	0m0.135s
+real	0m14.940s
+user	0m14.888s
+sys	0m0.051s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: normal_lpdf: Scale parameter[1] is 0, but must be > 0!  (in '../benchmark-schools-4-old.stan' at line 44)
 
@@ -1177,9 +1177,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m24.112s
-user	0m24.051s
-sys	0m0.061s
+real	0m14.636s
+user	0m14.585s
+sys	0m0.050s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: normal_lpdf: Scale parameter[1] is 0, but must be > 0!  (in '../benchmark-schools-4-old.stan' at line 44)
 
@@ -1571,9 +1571,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m23.118s
-user	0m23.064s
-sys	0m0.054s
+real	0m14.881s
+user	0m14.830s
+sys	0m0.050s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: normal_lpdf: Scale parameter[1] is 0, but must be > 0!  (in '../benchmark-schools-4-old.stan' at line 44)
 
@@ -1965,9 +1965,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m22.934s
-user	0m22.879s
-sys	0m0.055s
+real	0m14.529s
+user	0m14.476s
+sys	0m0.053s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: normal_lpdf: Scale parameter[1] is 0, but must be > 0!  (in '../benchmark-schools-4-old.stan' at line 44)
 
@@ -2359,9 +2359,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m23.088s
-user	0m23.033s
-sys	0m0.055s
+real	0m15.134s
+user	0m15.084s
+sys	0m0.050s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: normal_lpdf: Scale parameter[1] is 0, but must be > 0!  (in '../benchmark-schools-4-old.stan' at line 44)
 
@@ -2753,9 +2753,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m24.301s
-user	0m24.246s
-sys	0m0.055s
+real	0m14.707s
+user	0m14.654s
+sys	0m0.053s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: normal_lpdf: Scale parameter[1] is 0, but must be > 0!  (in '../benchmark-schools-4-old.stan' at line 44)
 
@@ -3147,9 +3147,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m23.426s
-user	0m23.371s
-sys	0m0.055s
+real	0m14.356s
+user	0m14.303s
+sys	0m0.052s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: normal_lpdf: Scale parameter[1] is 0, but must be > 0!  (in '../benchmark-schools-4-old.stan' at line 44)
 
@@ -3541,9 +3541,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m23.299s
-user	0m23.244s
-sys	0m0.055s
+real	0m14.709s
+user	0m14.658s
+sys	0m0.051s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: normal_lpdf: Scale parameter[1] is 0, but must be > 0!  (in '../benchmark-schools-4-old.stan' at line 44)
 
@@ -3935,6 +3935,6 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	0m22.680s
-user	0m22.627s
+real	0m15.557s
+user	0m15.504s
 sys	0m0.053s

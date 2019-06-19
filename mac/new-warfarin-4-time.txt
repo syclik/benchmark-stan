@@ -76,9 +76,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	2m30.804s
-user	7m6.122s
-sys	0m5.632s
+real	1m31.932s
+user	5m25.166s
+sys	0m4.372s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
   (in '../benchmark-warfarin-new.stan' at line 160)
@@ -157,9 +157,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	2m22.673s
-user	6m46.776s
-sys	0m5.607s
+real	1m32.468s
+user	5m25.739s
+sys	0m4.435s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
   (in '../benchmark-warfarin-new.stan' at line 160)
@@ -238,9 +238,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	1m51.742s
-user	6m26.758s
-sys	0m5.303s
+real	1m34.074s
+user	5m28.030s
+sys	0m4.667s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
   (in '../benchmark-warfarin-new.stan' at line 160)
@@ -319,9 +319,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	1m50.389s
-user	6m21.500s
-sys	0m5.217s
+real	1m27.223s
+user	5m7.314s
+sys	0m4.319s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
   (in '../benchmark-warfarin-new.stan' at line 160)
@@ -400,9 +400,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	1m45.167s
-user	6m6.509s
-sys	0m5.009s
+real	1m33.145s
+user	5m25.654s
+sys	0m4.622s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
   (in '../benchmark-warfarin-new.stan' at line 160)
@@ -481,9 +481,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	1m46.165s
-user	6m8.513s
-sys	0m5.042s
+real	1m34.686s
+user	5m28.146s
+sys	0m4.797s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
   (in '../benchmark-warfarin-new.stan' at line 160)
@@ -562,9 +562,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	1m46.228s
-user	6m8.312s
-sys	0m5.071s
+real	1m32.109s
+user	5m23.540s
+sys	0m4.514s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
   (in '../benchmark-warfarin-new.stan' at line 160)
@@ -643,9 +643,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	1m51.412s
-user	6m26.816s
-sys	0m5.160s
+real	1m31.993s
+user	5m25.666s
+sys	0m4.448s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
   (in '../benchmark-warfarin-new.stan' at line 160)
@@ -724,9 +724,9 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	1m44.480s
-user	6m4.141s
-sys	0m4.937s
+real	1m51.551s
+user	6m31.415s
+sys	0m5.033s
 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
 Exception: Exception: Exception: gamma_lpdf: Shape parameter[1] is nan, but must be > 0!  (in '../benchmark-warfarin-new.stan' at line 48)
   (in '../benchmark-warfarin-new.stan' at line 160)
@@ -805,6 +805,6 @@ If this warning occurs sporadically, such as for highly constrained variable typ
 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 
 
-real	1m43.033s
-user	5m56.690s
-sys	0m4.990s
+real	1m34.734s
+user	5m31.858s
+sys	0m4.596s
