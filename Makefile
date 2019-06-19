@@ -1,8 +1,10 @@
 build:
 
-
 .PHONY: build pre-build clean
 
+if ($(OS),Windows_NT)
+  EXE=.exe
+endif
 
 clean-all: clean
 	cd cmdstan-old && git clean -dxf
@@ -35,6 +37,6 @@ pre-build:
 	cp local cmdstan-old/make/local
 	cp local cmdstan-new/make/local
 
-build: pre-build benchmark-warfarin-old benchmark-warfarin-new benchmark-schools-4-old benchmark-schools-4-new
+build: pre-build benchmark-warfarin-old$(EXE) benchmark-warfarin-new$(EXE) benchmark-schools-4-old$(EXE) benchmark-schools-4-new$(EXE)
 	@echo "build"
 
