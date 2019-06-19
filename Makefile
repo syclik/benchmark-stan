@@ -24,14 +24,14 @@ clean:
 benchmark-warfarin-%.stan : benchmark-warfarin.stan
 	cp benchmark-warfarin.stan $@
 
-benchmark-warfarin-% : benchmark-warfarin-%.stan
-	cd cmdstan-$* && make ../$@
+benchmark-warfarin-%$(EXE) : benchmark-warfarin-%.stan
+	cd cmdstan-$* && make ../$@$(EXE)
 
 benchmark-schools-4-%.stan : benchmark-schools-4.stan
 	cp benchmark-schools-4.stan $@
 
-benchmark-schools-4-% : benchmark-schools-4-%.stan
-	cd cmdstan-$* && make ../$@
+benchmark-schools-4-%$(EXE) : benchmark-schools-4-%.stan
+	cd cmdstan-$* && make ../$@$(EXE)
 
 pre-build:
 	cp local cmdstan-old/make/local
