@@ -2,7 +2,7 @@ build:
 
 .PHONY: build pre-build clean
 
-if ($(OS),Windows_NT)
+ifeq ($(OS),Windows_NT)
   EXE=.exe
 endif
 
