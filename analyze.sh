@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-OS=(mac linux)
+OS=(linux)
 N=10
-threads=(no-thread 1 2 4)
+threads=(1 2 4 8)
 branches=(old new)
-models=(schools-4 warfarin)
+models=(warfarin)
 
 echo "os,branch,model,type,minutes,seconds,threads" > time.txt
 for os in "${OS[@]}"; do
