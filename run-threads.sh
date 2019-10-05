@@ -40,7 +40,7 @@ FOLDER=linux
 mkdir -p $FOLDER
 
 random_seed=06112019
-N=10
+N=5
 threads=(2 4 8)
 
 echo "Running once with 1 thread" | tee -a progress.txt
